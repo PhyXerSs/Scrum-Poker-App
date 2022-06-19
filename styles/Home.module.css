@@ -114,3 +114,33 @@
     flex-direction: column;
   }
 }
+
+.login1 {
+  position: absolute;
+  left: -31.25%;
+  right: 32.76%;
+  top: -139%;
+  bottom: 60.89%;
+  background: linear-gradient(90deg, #2076D2 0%, #15C1EE 100%);
+  transform: rotate(-30deg);
+}
+
+.login2 {
+  position: absolute;
+  left: 35.83%;
+  right: -10.29%;
+  top: -36.33%;
+  bottom: 17.2%;
+  background: linear-gradient(90deg, #2076D2 0%, #15C1EE 100%);
+  transform: rotate(40deg);
+}
+
+.login3 {
+  position: absolute;
+  left: 35.83%;
+  right: -10.29%;
+  top: -36.33%;
+  bottom: 17.2%;
+  background: linear-gradient(90deg, #2076D2 0%, #15C1EE 100%);
+  transform: rotate(-45deg);
+}

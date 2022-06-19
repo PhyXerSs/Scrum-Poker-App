@@ -1,0 +1,35 @@
+.swiper-button-next::after {
+    font-size: 20px !important;
+    font-weight: bold;
+    color: rgb(3, 88, 193) !important;
+    background-color: aliceblue;
+    padding-top: 7px;
+    padding-left: 11px;
+    padding-right:11px;
+    padding-bottom: 7px;
+
+    box-shadow: rgb(0 0 0 / 22%) 0px 1px 7px 1px;
+    border-radius: 150px;
+  }
+  
+  .swiper-button-prev::after{
+    font-size: 20px !important;
+    font-weight: bold;
+    color: rgb(3, 88, 193) !important;
+    background-color: aliceblue;
+    padding-top: 7px;
+    padding-left: 11px;
+    padding-right:11px;
+    padding-bottom: 7px;
+    box-shadow: rgb(0 0 0 / 22%) 0px 1px 7px 1px;
+    border-radius: 150px;
+  }
+
+.SnackbarItem-action{
+  margin-left: 0 !important; 
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,6 +1,6 @@
 # Scrum-Poker
-
-livesite : https://scrumpoker-icezy.herokuapp.com/
+Intern project
+Live Site : https://scrumpoker-icezy.herokuapp.com/
 
 # 	**Preview**
 

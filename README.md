@@ -1,7 +1,7 @@
 # Scrum-Poker
 Intern project
 
-Live Site : scrum-poker-app-one.vercel.app
+Live Site : https://scrum-poker-app-one.vercel.app/poker
 
 # 	**Preview**
 

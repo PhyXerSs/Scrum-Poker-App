@@ -1,7 +1,7 @@
 # Scrum-Poker
 Intern project
 
-Live Site : https://scrumpoker-icezy.herokuapp.com/
+Live Site : scrum-poker-app-one.vercel.app
 
 # 	**Preview**
 

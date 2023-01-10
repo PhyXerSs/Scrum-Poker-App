@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "test": "jest",
-    "dev": "next dev",
+    "dev": "next dev --port 4200",
     "build": "next build",
-    "now-build": "yum install libuuid-devel libmount-devel && cp /lib64/{libuuid,libmount,libblkid}.so.1 node_modules/canvas/build/Release/ && npm run build",
     "start": "next start",
-    "deploy": "now"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",

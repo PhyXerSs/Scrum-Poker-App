@@ -248,7 +248,11 @@ function UploadNewPhoto({setSelectedImage , setIsSelectedImage} : props) {
                             checkImage(
                               changeImageUrl,
                               async function (isImage: boolean) {
+                                await convertImageUrlToBase64(
+                                  changeImageUrl
+                                );
                                 if (isImage) {
+                                  
                                   try {
                                     let base64 = await convertImageUrlToBase64(
                                       changeImageUrl

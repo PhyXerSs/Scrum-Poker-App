@@ -5,7 +5,7 @@ import { UserAddIcon } from "@heroicons/react/solid";
 import { firestore } from "firebase";
 import { nanoid } from 'nanoid'
 
-const API_PATH : String = "https://scrum-poker-server-mintel.herokuapp.com/poker"
+const API_PATH : String = "https://scrum-poker-server.vercel.app/poker"
 const API_PATH_NEXT : String ='';
 export const generateKey = (pre : string) => {
     return `${ pre }_${ new Date().getTime() }`;
@@ -358,6 +358,9 @@ export async function convertImageUrlToBase64(url:string){
     let res = await axios.post(`${API_PATH}/base64`,{
         "url":url
     });
+    console.log(res);
+    
+    
     return res.data as any
 }
 

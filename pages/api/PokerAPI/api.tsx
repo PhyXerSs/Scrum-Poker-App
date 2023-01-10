@@ -6,6 +6,7 @@ import { firestore } from "firebase";
 import { nanoid } from 'nanoid'
 
 const API_PATH : String = "https://scrum-poker-server-mintel.herokuapp.com/poker"
+const API_PATH_NEXT : String ='';
 export const generateKey = (pre : string) => {
     return `${ pre }_${ new Date().getTime() }`;
 }

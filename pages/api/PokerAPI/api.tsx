@@ -358,9 +358,6 @@ export async function convertImageUrlToBase64(url:string){
     let res = await axios.post(`${API_PATH}/base64`,{
         "url":url
     });
-    console.log(res);
-    
-    
     return res.data as any
 }
 

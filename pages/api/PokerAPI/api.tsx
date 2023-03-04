@@ -5,7 +5,7 @@ import { UserAddIcon } from "@heroicons/react/solid";
 import { firestore } from "firebase";
 import { nanoid } from 'nanoid'
 
-const API_PATH : String = "https://scrum-poker-server.vercel.app/poker"
+const API_PATH : String = "https://scrum-poker-server-phyx.onrender.com/poker"
 const API_PATH_NEXT : String ='';
 export const generateKey = (pre : string) => {
     return `${ pre }_${ new Date().getTime() }`;
